@@ -15,7 +15,7 @@ navigate to [http://localhost:5601/](http://localhost:5601/) for Kibana.
 In Golang we use Zap, by Uber as the logger.
 It's fast and has a lot of options to create for example json log entries with almost no memory allocations.
 
-[https://github.com/uber-go/zap](here is the github link)
+[https://github.com/uber-go/zap](here) is the github link
 
 We will write the logs to `/var/log/go_example` (todo now autodiscovers containers)
 
@@ -31,6 +31,6 @@ The logs are collected in ElasticSearch. This gives you some fancy search option
 To visualize the logs we use Kibana.
 This is how you set it all up using Docker:
 
-[https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html](Install ElasticSearch and Kibana)
+[https://www.elastic.co/guide/en/elasticsearch/reference/current/docker.html](Install) ElasticSearch and Kibana
 
 
