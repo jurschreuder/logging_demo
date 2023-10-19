@@ -3,6 +3,13 @@ The Ultimate Logger
 
 Example for Go and FastAPI (todo now only Go) logging.
 
+# Try it out
+```
+docker-compose up
+```
+navigate to [http://localhost:5601/](http://localhost:5601/) for Kibana.
+
+
 # The Fantasy Logging Team
 
 In Golang we use Zap, by Uber as the logger.
